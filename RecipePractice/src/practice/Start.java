@@ -170,8 +170,8 @@ public class Start {
 		// recipe[num_of_recipe].num_of_food = num_of_kind;
 		for (int i = 0; i < recipe[num_of_recipe].num_of_food; i++) {
 			System.out.print((i + 1) + "번째 재료: ");
-			String kind_of_food = in.next();
-			recipe[num_of_recipe].food[i].name = kind_of_food;
+			recipe[num_of_recipe].food[i].name = in.next();
+//			recipe[num_of_recipe].food[i].name = kind_of_food;
 		}
 
 		System.out.print("요리 방법: ");
